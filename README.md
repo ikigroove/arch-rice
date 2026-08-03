@@ -1,4 +1,4 @@
-# 🍚 Arch Hyprland Rice
+# Arch Hyprland Rice
 
 > A modern, aesthetic Arch Linux rice featuring Hyprland with dynamic colors, smooth animations, and a cohesive dark theme.
 
@@ -37,7 +37,7 @@
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/arch-rice.git
+git clone https://github.com/ikigroove/arch-rice.git
 cd arch-rice
 ```
 
