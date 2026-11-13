@@ -62,9 +62,11 @@ uwsm start hyprland
 ```
 
 ### Note: 
-I use autologin and uwsm to log into Hyprland. I don't remember exactly how I set it up, so the task of figuring out how it works is up to you. The same applies to zsh.
+- The hyprland config was migrated to lua for compatibility with newer versions hyprland.
 
-EasyEffects already has several presets for laptops.
+- I use autologin and uwsm to log into Hyprland. I don't remember exactly how I set it up, so the task of figuring out how it works is up to you. The same applies to zsh.
+
+- EasyEffects already has several presets for laptops.
 
 ## Credits
 Base rice inspired by [bennewbs](https://github.com/binnewbs/arch-hyprland)

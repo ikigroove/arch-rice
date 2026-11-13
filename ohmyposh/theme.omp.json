@@ -1,0 +1,41 @@
+{
+  "$schema": "https://githubusercontent.com",
+  "version": 2,
+  "final_space": true,
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "path",
+          "style": "plain",
+          "foreground": "#61afef",
+          "template": "{{ .Path }} ",
+          "properties": {
+            "style": "folder"
+          }
+        },
+        {
+          "type": "git",
+          "style": "plain",
+          "foreground": "#98c379",
+          "template": "{{ .HEAD }} ",
+          "properties": {
+            "fetch_status": false
+          }
+        },
+        {
+          "type": "status",
+          "style": "plain",
+          "foreground": "#c678dd",
+          "foreground_templates": [
+            "{{ if gt .Code 0 }}#e06c75{{ end }}"
+          ],
+          "template": ">"
+        }
+      ]
+    }
+  ]
+}
+
